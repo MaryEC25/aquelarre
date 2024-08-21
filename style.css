@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Cormorant+Upright:wght@300;400;500;600;700&family=Gowun+Batang&family=IM+Fell+English:ital@0;1&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quintessential&display=swap');
+header{   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(197, 146, 220);
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-right: 30px;
+}
+header ul li{
+    margin: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: "IM Fell English", serif;
+}
+header img{
+    width: 180px;
+    padding-left: 30px;
+}
+.encabezado{
+    background-color: rgb(238, 222, 248);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado h1{
+    font-size: 25px;
+    color: rgb(63, 15, 79);
+    font-family: "Playfair Display", serif;
+    padding: 20px 0px 0px 0px;
+}
+.encabezado p{
+    font-size: 30px;
+    color: rgb(47, 4, 48);
+    font-family: "Cormorant Upright", serif;
+    font-weight: 500;
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px 20px 100px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(238, 222, 248);
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    width: auto;
+    height: 200px;
+    border-radius: 30%;
+}
+.caja h1{
+    font-size: 25px;
+    color: rgb(50, 10, 111);
+    font-family: "Playfair Display", serif;
+}
+.caja h2{
+    font-size: 20px;
+    color: rgb(88, 41, 183);
+    font-family: "Baskervville SC", serif;
+    text-align: center;
+}
+.caja p{
+    font-size: 18px;
+    color: rgb(28, 7, 41);
+    font-family: "Gowun Batang", serif;
+    text-align: justify;
+}
+.pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: rgb(238, 222, 248);
+    padding: 20px 0px 40px 0px;
+}
+footer{
+    display: flex;
+    background-color: rgb(212, 174, 229);
+    justify-content: center;
+    font-size: 18px;
+    font-family: "IM Fell English", serif;
+    color: rgb(255, 255, 255);
+}
